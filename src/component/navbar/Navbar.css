@@ -1,0 +1,26 @@
+.navbar-wapper{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 60px;
+}
+.navbar-container{
+    background-color: brown;
+    height: 60px;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+span{
+font-size: 22px;
+font-weight: bolder;
+}
+.navbar-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.navbar-container li{
+    font-size: 20px;
+    font-weight: bolder;
+}

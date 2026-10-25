@@ -18,7 +18,7 @@ function Home() {
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia,
           iusto beatae? Eum rem corrupti aliquid consequuntur placeat, vero
-          fugit alias Vaishali!
+          fugit alias Vaishali !
         </p>
         <div className="button">
           <button onClick={submit}>30 Minutes</button>

@@ -24,23 +24,23 @@ export function Card() {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwO0wY2zmLQ-AFOwPUfj_GWNfC4AVxIUeIKEocoo0a9g&s=10",
       name: "Tiya",
-      disc: "studenst of BCA",
+      disc: "students of BCA",
     },
     {
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC8z7DoIRqklUYo4pEDmlTxKIyZ9myc2Z8MC73goKWOw&s=10",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC8z7DoIRqklUYo4pEDmlTxKIyZ9myc2Z8MC73goKWOw&s=10",
       name: "Priya",
-      disc: "studenst of MCA",
+      disc: "students of MCA",
     },
     {
       name: "Amit",
-      disc: "studenst of B.Tech",
+      disc: "students of B.Tech",
       image: Person,
     },
     {
       image: Person1,
       name: "Rohan",
-      disc: "studenst of BBA",
+      disc: "students of BBA",
     },
   ];
   return (

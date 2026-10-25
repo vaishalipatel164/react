@@ -1,23 +1,24 @@
-import { useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Recipes from "./pages/Recipes";
+import { useState } from 'react';
 import Navbar from "./component/navbar/Navbar";
-import Contact from "./pages/Contact";
+import Home from "./pages/Home"
+import Recipes from "./pages/Recipes"
+import Contact from "./pages/Contact"
 
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 function App() {
+
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Recipes" element={<Recipes />} />
-          <Route path="/Contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
+    <Router>
+      <Navbar/>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/recipes' element={<Recipes/>} />
+        <Route path='/Contact' element={<Contact/>}/>
+      </Routes>
+    </Router>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

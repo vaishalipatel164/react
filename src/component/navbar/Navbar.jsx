@@ -13,6 +13,7 @@ return(
                 <li><a href="/Recipes">Recipes</a></li>
                 <li><a href="/contact">Contact</a></li>
                 <li><a href="/form">Form</a></li>
+                <li><a href="/proj1">Proj1</a></li>
             </ul>
         {/* </div> */}
     </div>

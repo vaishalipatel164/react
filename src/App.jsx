@@ -6,6 +6,7 @@ import Contact from "./pages/Contact"
 
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import Form from './pages/Form';
+import Places from './pages/Places';
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/recipes' element={<Recipes/>} />
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/form' element={<Form/>}/>
+        <Route path='/proj1' element={<Places/>}/>
       </Routes>
     </Router>
     </>

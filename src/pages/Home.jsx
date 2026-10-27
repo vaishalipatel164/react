@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Home.css";
-import Hooks from "./hooks";
+import Hooks from "./Hooks";
 
 function Home() {
   // const [subit, setSubmit] = useState(" ");

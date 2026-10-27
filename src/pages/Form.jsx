@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Form.css"
+import MiniProject from './MiniProject';
 
 function Form() {
 
@@ -44,6 +45,7 @@ function Form() {
             </div>
         </div>
     </form>
+    <MiniProject />
     </>
   )
 }

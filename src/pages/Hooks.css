@@ -1,0 +1,12 @@
+.hooks{
+     padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+.hooks-button{
+    padding: 10px;
+    border: 2px solid black;
+    background-color: burlywood;
+    border-radius: 10px;
+    width: 100px;
+}

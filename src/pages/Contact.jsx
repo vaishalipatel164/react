@@ -20,7 +20,6 @@ function Contact() {
         />
       </form>
       <p>Hello {forms} </p>
-      
     </>
   );
 }
